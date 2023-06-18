@@ -1,3 +1,54 @@
+# ADMIN UI 
+
+This is a user management application built using React. It allows you to view, search, edit, and delete user information. 
+
+## Features
+
+- Display a list of users with their name, email, and role
+- Search users by name, email, or role
+- Edit user information and save changes
+- Delete individual users or delete all selected users
+- Pagination for navigating through the user list
+
+## Installation
+
+1. Clone the repository:
+
+   git clone <repository_url>
+
+2. Install dependencies:
+
+    cd user-management
+    npm install
+
+3. Start the development server:
+
+    npm start
+    The application will be running at http://localhost:3000.
+
+# Usage
+
+   * Enter search keywords in the search input field to filter the user list.
+   * To edit a user's information, click the "Edit" button in the corresponding row. Update the fields  and click "Save" to save the changes.
+   * To delete a user, click the "Delete" button in the corresponding row.
+   * To delete all selected users, mark the checkboxes in the rows you want to delete and click the "Delete Selected" button.
+   * Use the pagination buttons at the bottom to navigate between pages.
+
+# Dependencies
+
+    1. React: ^17.0.2
+    2. react-dom: ^17.0.2
+
+
+# About Developer
+    Name- Akshat Anand
+    Github- https://github.com/toakshh
+    LinkedIn- https://www.linkedin.com/in/akshat-anand-2a94b7213
+    Portfolio- https://www.crio.do/learn/portfolio/akshnnd/
+
+# ----------------------------       ABOUT REACT       ---------------------------------------
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,138 @@
+/* Set width and font size for main element */
+.main{
+    width: 100%;
+}
+ /* Set width, text alignment, font family, background color, border radius, and margin top for table element */
+.table{
+    width: 100%;
+    text-align: left;
+    /* background-color: #0F1111; */
+    background-color: #0C0D0E;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #e8e6e3;
+}
+tr{
+  color: #e8e6e3 ;
+}
+ /* Set border bottom and padding for th and td elements */
+td{
+    border-bottom: 1px solid #7400D2;
+    padding: 15px;
+}
+th{
+  border-bottom: 3px solid #7400D2;
+  padding: 15px;
+}
+.thead{
+  background-color: rgba(128, 128, 128, 0.137);
+}
+input{
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+}
+tr:hover{
+    transform: scale(1.03);
+    transition: .3s ease;
+}
+.table-input{
+  background-color: #18093B;
+}
+.table-input > input, select{
+  background-color: #2B2A33;
+  color: white;
+}
+input[type="checkbox"]{
+  accent-color:#7400D2 ;
+}
+ /* Set hover effect for input type checkbox */
+input[type="checkbox"]:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+}
+ /* Set background, box shadow, and font color for contents element */
+.contents {
+  /* for light background */
+    /* background: #f5f5fa21; */
+    /* box-shadow: -10px -10px 20px 0 #fff,10px 10px 30px 0 #1d0dca17; */
+    color: #9B9285;
+  }
+ /* Set background for selected element */
+  .selected{
+    background: rgba(128, 128, 128, 0.199);
+  }
+ /* Set display and font color for btn-contents element */
+.btn-contents{
+    display: flex;
+  }
+ /* Set font color for member and admin classes */
+.member{
+    color: #5DACF2;
+}
+.admin{
+    color: #D33A2C;
+}
+.btn {
+    border: 2px solid rgba(128, 128, 128, 0.199);
+    background-color: #232627;  
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: .75em;
+    transition: all 235ms ease-in-out;
+    border-radius: 15px;
+  }
+  .btn:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+    color: #D33A2C;
+    background-color: #d33a2c7c;
+  }
+  .btn:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  } 
+  .edit:hover{
+    color: #E564EB;
+    background-color: rgba(184, 97, 255, 0.397);
+}
+/* Mobile devices */
+@media (max-width: 768px) {
+  .container {
+    padding: 0;
+    word-wrap: break-word; 
+  }
+
+  table{
+    max-width: 90vw;
+  }
+
+  th,
+  td {
+    padding: 6px;
+  }
+  .email-hidden{
+    display: none;
+  }
+  .btn-contents{
+    display: flex;
+    flex-direction: column;
+  }
+  .btn{
+    margin: 5px;
+    /* background-color: #232627;  */
+  }
+  .btn:active{
+    background-color: #f00d0d;
+    transition: .3s ease-in;
+  }
+  input{
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+  }
+
+}
+

@@ -1,0 +1,70 @@
+ /* Set display, width, and margin top for pagination-div element */
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  button{
+    border: none;
+    margin: 0 10px 0 0;
+  }
+  .pagination-btn{
+    color: #4a415a;
+    text-align: center;
+    display: inline-block;
+    padding: .3em .7em;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    background-color: #0C0D0E;
+  }
+  .pagination-btn:hover {
+    background-color: #2F146D;
+  }
+  
+ .active {
+    background-color: #9c7ce7e3;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    border-radius: 20px;
+    display: inline-block;
+    padding: .3em .7em;
+  }
+  .disabled {
+    border-radius: 20px;
+    padding: .3em .7em;
+    text-align: center;
+    display: inline-block;
+    background-color: #222128;
+  }
+
+/* for mobile devices */
+  @media (max-width: 768px) {
+    .pagination-div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .pagination{
+      border-radius: 20px;
+      padding: 0;
+      text-align: center;
+      display: inline-block;
+    }
+    .pagination-btn{
+      padding: 2px;
+      background-color: #0C0D0E;
+    }
+    .disabled{
+      padding: 1;
+      background-color: #222128;
+    }
+  }
